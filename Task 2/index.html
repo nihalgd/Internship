@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Intermediate Web Development</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><b>WebSkills</b><nav><a href="#contact">Contact</a><a href="#layout">Layout</a><a href="#todo">To-Do</a></nav></header>
+<main>
+<section class="hero"><span>HTML • CSS • JavaScript</span><h1>Intermediate Web Development</h1><p>Forms, validation, responsive layouts and DOM manipulation.</p></section>
+
+<section id="contact" class="section"><h2>01. Contact Form</h2><p>HTML form with JavaScript validation.</p>
+<form id="contactForm">
+<label>Name<input id="name" placeholder="Enter your name"></label><small id="nameError"></small>
+<label>Email<input id="email" placeholder="Enter your email"></label><small id="emailError"></small>
+<label class="full">Message<textarea id="message" placeholder="Write your message"></textarea></label><small id="messageError"></small>
+<button>Submit</button><strong id="success"></strong>
+</form></section>
+
+<section id="layout" class="section"><h2>02. Responsive Layout</h2><p>Flexbox and CSS Grid are used to organize the content.</p>
+<div class="grid"><article><b>Flexbox</b><p>Used for navigation and flexible alignment.</p></article><article><b>CSS Grid</b><p>Used for responsive columns and content areas.</p></article><article><b>Responsive</b><p>Media queries adapt the page to smaller screens.</p></article></div></section>
+
+<section id="todo" class="section"><h2>03. Dynamic To-Do List</h2><p>Add and remove tasks using JavaScript DOM manipulation.</p>
+<div class="todo"><input id="taskInput" placeholder="Enter a new task"><button id="addTask">Add Task</button><ul id="taskList"></ul></div></section>
+</main>
+<footer>Intermediate HTML, CSS & JavaScript Practice</footer>
+<script src="script.js"></script>
+</body></html>
